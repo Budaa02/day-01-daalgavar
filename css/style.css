@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   background:aqua;
+}
+.container{
+    display: flex;
+    width:1280px;
+}
+.left{
+    display:flex;
+    flex-direction: column;
+    max-width: 640px;
+    background:orange;
+}
+.right{
+    display:flex;
+    flex-direction: column;
+    max-width: 640px;
+    background:white;
+}
+.left-right{
+    display:flex;
+    justify-content: center;
+    height: 500px;
+}
