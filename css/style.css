@@ -12,16 +12,31 @@ body{
     display:flex;
     flex-direction: column;
     max-width: 640px;
-    background:orange;
+    background:white ;
+    padding:50px;
 }
 .right{
     display:flex;
     flex-direction: column;
     max-width: 640px;
     background:white;
+    padding:50px;
+    background:rgba(0, 0, 255, 0.377);
 }
 .left-right{
     display:flex;
     justify-content: center;
     height: 500px;
+}
+.left_123{
+    display:flex;
+    justify-content:space-between ;
+}
+.left-first{
+    width:48%
+}
+input{
+    border:0;
+    border-bottom:1px solid black;
+    margin-bottom:10px
 }
